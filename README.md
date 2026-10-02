@@ -19,13 +19,6 @@ and I still write most of the code myself.
 - **Streaming & backend**: Kafka, Confluent, Flink, Quarkus, reactive Java.
 - **Platform engineering**: Kubernetes, Terraform, ArgoCD, GitHub Actions with OIDC, Azure and AWS.
 
-## Featured Projects
-
-| Project | What it is |
-|:---:|---|
-| <a href="https://github.com/docling-project/docling.rs"><img src="assets/docling-rs.svg" width="48" alt="docling.rs"/></a><br/>[docling.rs](https://github.com/docling-project/docling.rs) | Rust reimplementation of Docling, adopted into the official Docling project. 20+ document formats into RAG-ready output, up to 46× faster and 2–57× leaner on memory than Python, with Node.js bindings. |
-| <a href="https://github.com/artiz/kate-chat"><img src="assets/katechat.svg" width="48" alt="KateChat"/></a><br/>[KateChat](https://github.com/artiz/kate-chat) | Self-hosted multi-provider LLM chat platform: Bedrock, OpenAI, RAG on Docling, MCP tool servers, in-browser Python. |
-
 ## Tech Stack
 
 | Area | Tools |
