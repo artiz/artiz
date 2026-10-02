@@ -1,6 +1,7 @@
-<h1 align="center">Artem Kustikov · artiz</h1>
-<p align="center"><b>Principal Consultant · GenAI & agentic systems, streaming, cloud-native architecture</b><br/>
-Vienna, Austria · <a href="https://artiz.github.io/">CV</a> · <a href="https://www.linkedin.com/in/artem-kustikov-2635917/">LinkedIn</a></p>
+<p align="center">
+  <img src="assets/net.svg" width="100%" alt="Artem Kustikov · artiz — Principal Consultant · GenAI &amp; agentic systems, streaming, cloud-native architecture"/>
+</p>
+<p align="center">Vienna, Austria · <a href="https://artiz.github.io/">CV</a> · <a href="https://www.linkedin.com/in/artem-kustikov-2635917/">LinkedIn</a></p>
 
 ---
 
@@ -27,9 +28,13 @@ and I still write most of the code myself.
 
 ## Tech Stack
 
-TypeScript · React · Next.js · Node.js · Python · PydanticAI · Java · Quarkus · Rust · Go
-Kafka · Flink · PostgreSQL · Redis · Cosmos DB
-Azure · AWS · Kubernetes · Terraform · Helm · ArgoCD
+| Area | Tools |
+|---|---|
+| **AI / LLM** | Azure OpenAI · Azure AI Foundry · AWS Bedrock · PydanticAI · MCP · RAG · Langfuse · LLM-as-a-Judge · Whisper |
+| **ML & Data** | Python · PyTorch · scikit-learn · ONNX Runtime · NumPy · Pandas · NLTK |
+| **Web** | TypeScript · React · Next.js · Node.js · GraphQL · Tailwind CSS · ReactFlow · WebSockets · WebRTC |
+| **Backend & Streaming** | Java · Quarkus · Spring Boot · Rust · Go · Kafka · Flink · PostgreSQL · Redis · Cosmos DB |
+| **Cloud & DevOps** | Azure · AWS · GCP · Kubernetes · Terraform · Helm · ArgoCD · GitHub Actions |
 
 ## Certifications
 
