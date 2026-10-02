@@ -30,8 +30,8 @@ and I still write most of the code myself.
 
 | Area | Tools |
 |---|---|
-| **AI / LLM** | Azure OpenAI · Azure AI Foundry · AWS Bedrock · PydanticAI · MCP · RAG · Langfuse · LLM-as-a-Judge · Whisper |
-| **ML & Data** | Python · PyTorch · scikit-learn · ONNX Runtime · NumPy · Pandas · NLTK |
+| **AI / LLM** | LLM agents · Azure OpenAI · Azure AI Foundry · AWS Bedrock · LangChain · PydanticAI · MCP · RAG · Langfuse · LLM-as-a-Judge · Whisper |
+| **ML & Data** | Python · Rust · PyTorch · scikit-learn · ONNX Runtime · NumPy · Pandas · NLTK · ETL pipelines |
 | **Web** | TypeScript · React · Next.js · Node.js · GraphQL · Tailwind CSS · ReactFlow · WebSockets · WebRTC |
 | **Backend & Streaming** | Java · Quarkus · Spring Boot · Rust · Go · Kafka · Flink · PostgreSQL · Redis · Cosmos DB |
 | **Cloud & DevOps** | Azure · AWS · GCP · Kubernetes · Terraform · Helm · ArgoCD · GitHub Actions |
