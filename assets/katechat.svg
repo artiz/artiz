@@ -1,27 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="KateChat">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2a1a4a"/>
-      <stop offset="1" stop-color="#1b1030"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa6ff"/>
+      <stop offset="0.5" stop-color="#2a74f0"/>
+      <stop offset="1" stop-color="#0a4fd6"/>
     </linearGradient>
-    <linearGradient id="bubble" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff6fa3"/>
-      <stop offset="1" stop-color="#c2307a"/>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dcebff"/>
     </linearGradient>
   </defs>
   <style>
     .dot { animation: typing 1.4s ease-in-out infinite; }
     .d2 { animation-delay: .2s; } .d3 { animation-delay: .4s; }
     @keyframes typing { 0%, 60%, 100% { transform: translateY(0); opacity: .55; } 30% { transform: translateY(-3px); opacity: 1; } }
-    .spark { transform-origin: 49px 15px; animation: pulse 2.8s ease-in-out infinite; }
-    @keyframes pulse { 0%, 100% { transform: scale(.8); opacity: .7; } 50% { transform: scale(1.1); opacity: 1; } }
+    .spark { transform-origin: 49px 14px; animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { transform: scale(.8); opacity: .75; } 50% { transform: scale(1.1); opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .dot, .spark { animation: none; } }
   </style>
   <rect width="64" height="64" rx="14" fill="url(#bg)"/>
-  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#ff3f81" stroke-opacity=".35"/>
+  <path d="M14 0h36a14 14 0 0 1 14 14v12C44 22 20 22 0 28V14A14 14 0 0 1 14 0z" fill="url(#gloss)"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#0a3fa8" stroke-opacity=".6"/>
   <path d="M15 17h30a6 6 0 0 1 6 6v15a6 6 0 0 1-6 6H29l-9 7v-7h-5a6 6 0 0 1-6-6V23a6 6 0 0 1 6-6z" fill="url(#bubble)"/>
-  <circle class="dot" cx="21" cy="30.5" r="3" fill="#ffffff"/>
-  <circle class="dot d2" cx="30" cy="30.5" r="3" fill="#ffffff"/>
-  <circle class="dot d3" cx="39" cy="30.5" r="3" fill="#ffffff"/>
-  <path class="spark" d="M49 7l1.8 5.2L56 14l-5.2 1.8L49 21l-1.8-5.2L42 14l5.2-1.8z" fill="#ffd6e4"/>
+  <circle class="dot" cx="21" cy="30.5" r="3" fill="#2a74f0"/>
+  <circle class="dot d2" cx="30" cy="30.5" r="3" fill="#2a74f0"/>
+  <circle class="dot d3" cx="39" cy="30.5" r="3" fill="#2a74f0"/>
+  <path class="spark" d="M49 6l1.8 5.2L56 13l-5.2 1.8L49 20l-1.8-5.2L42 13l5.2-1.8z" fill="#ffd34d"/>
 </svg>
