@@ -1,6 +1,7 @@
-<h1 align="center">Artem Kustikov · artiz</h1>
-<p align="center"><b>Principal Consultant · GenAI & agentic systems, streaming, cloud-native architecture</b><br/>
-Vienna, Austria · <a href="https://artiz.github.io/">CV</a> · <a href="https://www.linkedin.com/in/artem-kustikov-2635917/">LinkedIn</a></p>
+<p align="center">
+  <img src="assets/net.svg" width="100%" alt="Artem Kustikov · artiz — Principal Consultant · GenAI &amp; agentic systems, streaming, cloud-native architecture"/>
+</p>
+<p align="center">Vienna, Austria · <a href="https://artiz.github.io/">CV</a> · <a href="https://www.linkedin.com/in/artem-kustikov-2635917/">LinkedIn</a></p>
 
 ---
 
@@ -21,16 +22,20 @@ and I still write most of the code myself.
 ## Featured Projects
 
 | Project | What it is |
-|---|---|
-| 🪿[docling.rs](https://github.com/docling-project/docling.rs) | Rust reimplementation of Docling, adopted into the official Docling project. 20+ document formats into RAG-ready output, up to 46× faster and 2–57× leaner on memory than Python, with Node.js bindings. |
-| 🤖[KateChat](https://github.com/artiz/kate-chat) | Self-hosted multi-provider LLM chat platform: Bedrock, OpenAI, RAG on Docling, MCP tool servers, in-browser Python. |
+|:---:|---|
+| <a href="https://github.com/docling-project/docling.rs"><img src="assets/docling-rs.svg" width="48" alt="docling.rs"/></a><br/>[docling.rs](https://github.com/docling-project/docling.rs) | Rust reimplementation of Docling, adopted into the official Docling project. 20+ document formats into RAG-ready output, up to 46× faster and 2–57× leaner on memory than Python, with Node.js bindings. |
+| <a href="https://github.com/artiz/kate-chat"><img src="assets/katechat.svg" width="48" alt="KateChat"/></a><br/>[KateChat](https://github.com/artiz/kate-chat) | Self-hosted multi-provider LLM chat platform: Bedrock, OpenAI, RAG on Docling, MCP tool servers, in-browser Python. |
 
 ## Tech Stack
 
-TypeScript · React · Next.js · Node.js · Python · PydanticAI · Java · Quarkus · Rust · Go
-Kafka · Flink · PostgreSQL · Redis · Cosmos DB
-Azure · AWS · Kubernetes · Terraform · Helm · ArgoCD
+| Area | Tools |
+|---|---|
+| **AI / LLM** | LLM agents · Azure OpenAI · Azure AI Foundry · AWS Bedrock · LangChain · PydanticAI · MCP · RAG · Langfuse · LLM-as-a-Judge · Whisper |
+| **ML & Data** | Python · Rust · PyTorch · scikit-learn · ONNX Runtime · NumPy · Pandas · NLTK · ETL pipelines |
+| **Web** | TypeScript · React · Next.js · Node.js · GraphQL · Tailwind CSS · ReactFlow · WebSockets · WebRTC |
+| **Backend & Streaming** | Java · Quarkus · Spring Boot · Rust · Go · Kafka · Flink · PostgreSQL · Redis · Cosmos DB |
+| **Cloud & DevOps** | Azure · AWS · GCP · Kubernetes · Terraform · Helm · ArgoCD · GitHub Actions |
 
 ## Certifications
 
-AWS Solutions Architect · HashiCorp Terraform Associate · Confluent Certified Developer for Apache Kafka · AWS Generative AI Applications · Microsoft AI & ML Engineering
+AWS Solutions Architect · HashiCorp Terraform Associate · Confluent Certified Developer for Apache Kafka · AWS Generative AI Applications · Microsoft AI & ML Engineering · Machine Learning & Data Analysis (MIPT / Yandex)
