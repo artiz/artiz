@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Artem Kustikov · artiz — Principal Consultant · GenAI &amp; agentic systems, streaming, cloud-native architecture">
 <defs>
-<linearGradient id="title" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4d9dff"/><stop offset="1" stop-color="#0a52d8"/></linearGradient>
 <radialGradient id="fade" cx="0.5" cy="0.56" r="0.5"><stop offset="0" stop-color="#000"/><stop offset="0.75" stop-color="#000" stop-opacity="0.6"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
 <mask id="clear" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="300">
 <rect width="1200" height="300" fill="#fff"/>
@@ -286,6 +285,6 @@
 <circle cx="1171" cy="274" r="3.3" opacity="0.85"><animate attributeName="cx" dur="26s" repeatCount="indefinite" values="1171;1180;1188;1193;1195;1192;1187;1178;1169;1159;1152;1146;1145;1147;1153;1161;1171"/><animate attributeName="cy" dur="26s" repeatCount="indefinite" values="274;275;281;288;298;307;314;319;321;319;314;306;297;288;280;275;274"/></circle>
 </g>
 </g>
-<text x="600" y="152" text-anchor="middle" fill="url(#title)" style="font: 700 54px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Tahoma, Helvetica, Arial, sans-serif; letter-spacing: .5px">Artem Kustikov · artiz</text>
+<text x="600" y="152" text-anchor="middle" fill="#2f7dff" style="font: 700 54px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Tahoma, Helvetica, Arial, sans-serif; letter-spacing: .5px">Artem Kustikov · artiz</text>
 <text x="600" y="196" text-anchor="middle" fill="#3b78d8" style="font: 600 21px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Tahoma, Helvetica, Arial, sans-serif">Principal Consultant · GenAI &amp; agentic systems · streaming · cloud-native architecture</text>
 </svg>

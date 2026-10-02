@@ -1,50 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="docling.rs">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5aa6ff"/>
-      <stop offset="0.5" stop-color="#2a74f0"/>
-      <stop offset="1" stop-color="#0a4fd6"/>
-    </linearGradient>
-    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity=".45"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#dcebff"/>
-    </linearGradient>
-    <linearGradient id="gear" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffb347"/>
-      <stop offset="1" stop-color="#f26b1d"/>
-    </linearGradient>
-  </defs>
   <style>
-    .gear { transform-origin: 44px 44px; animation: spin 8s linear infinite; }
+    .gear { transform-origin: 44px 44px; animation: spin 10s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
     @media (prefers-reduced-motion: reduce) { .gear { animation: none; } }
   </style>
-  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
-  <path d="M14 0h36a14 14 0 0 1 14 14v12C44 22 20 22 0 28V14A14 14 0 0 1 14 0z" fill="url(#gloss)"/>
-  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#0a3fa8" stroke-opacity=".6"/>
-  <path d="M14 10h20l10 10v28a3 3 0 0 1-3 3H14a3 3 0 0 1-3-3V13a3 3 0 0 1 3-3z" fill="url(#paper)"/>
-  <path d="M34 10v7a3 3 0 0 0 3 3h7z" fill="#a9cbff"/>
-  <g stroke="#2a74f0" stroke-width="2.4" stroke-linecap="round">
-    <line x1="17" y1="24" x2="30" y2="24"/>
-    <line x1="17" y1="30" x2="36" y2="30"/>
-    <line x1="17" y1="36" x2="28" y2="36"/>
-  </g>
+  <defs>
+    <mask id="doc" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M36 6v10a4 4 0 0 0 4 4h10" fill="none" stroke="#000" stroke-width="3"/>
+      <g stroke="#000" stroke-width="3.5" stroke-linecap="round">
+        <line x1="16" y1="25" x2="30" y2="25"/>
+        <line x1="16" y1="33" x2="36" y2="33"/>
+        <line x1="16" y1="41" x2="27" y2="41"/>
+      </g>
+      <circle cx="44" cy="44" r="16" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M14 4h24l14 14v36a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V10a6 6 0 0 1 6-6z" fill="#2f7dff" mask="url(#doc)"/>
   <g class="gear">
-    <g fill="url(#gear)">
-      <circle cx="44" cy="44" r="10"/>
-      <rect x="42" y="30.5" width="4" height="5" rx="1"/>
-      <rect x="42" y="52.5" width="4" height="5" rx="1"/>
-      <rect x="30.5" y="42" width="5" height="4" rx="1"/>
-      <rect x="52.5" y="42" width="5" height="4" rx="1"/>
-      <rect x="42" y="30.5" width="4" height="5" rx="1" transform="rotate(45 44 44)"/>
-      <rect x="42" y="52.5" width="4" height="5" rx="1" transform="rotate(45 44 44)"/>
-      <rect x="30.5" y="42" width="5" height="4" rx="1" transform="rotate(45 44 44)"/>
-      <rect x="52.5" y="42" width="5" height="4" rx="1" transform="rotate(45 44 44)"/>
-    </g>
-    <circle cx="44" cy="44" r="4.2" fill="#0a4fd6"/>
+    <path fill="#ff8a1f" fill-rule="evenodd" d="M41.5 30h5l1 4.2 3 1.3 3.7-2.3 3.6 3.6-2.3 3.7 1.3 3 4.2 1v5l-4.2 1-1.3 3 2.3 3.7-3.6 3.6-3.7-2.3-3 1.3-1 4.2h-5l-1-4.2-3-1.3-3.7 2.3-3.6-3.6 2.3-3.7-1.3-3-4.2-1v-5l4.2-1 1.3-3-2.3-3.7 3.6-3.6 3.7 2.3 3-1.3zM44 39.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9z"/>
   </g>
 </svg>
