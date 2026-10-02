@@ -22,9 +22,9 @@ and I still write most of the code myself.
 ## Featured Projects
 
 | Project | What it is |
-|---|---|
-| 🪿[docling.rs](https://github.com/docling-project/docling.rs) | Rust reimplementation of Docling, adopted into the official Docling project. 20+ document formats into RAG-ready output, up to 46× faster and 2–57× leaner on memory than Python, with Node.js bindings. |
-| 🤖[KateChat](https://github.com/artiz/kate-chat) | Self-hosted multi-provider LLM chat platform: Bedrock, OpenAI, RAG on Docling, MCP tool servers, in-browser Python. |
+|:---:|---|
+| <a href="https://github.com/docling-project/docling.rs"><img src="assets/docling-rs.svg" width="48" alt="docling.rs"/></a><br/>[docling.rs](https://github.com/docling-project/docling.rs) | Rust reimplementation of Docling, adopted into the official Docling project. 20+ document formats into RAG-ready output, up to 46× faster and 2–57× leaner on memory than Python, with Node.js bindings. |
+| <a href="https://github.com/artiz/kate-chat"><img src="assets/katechat.svg" width="48" alt="KateChat"/></a><br/>[KateChat](https://github.com/artiz/kate-chat) | Self-hosted multi-provider LLM chat platform: Bedrock, OpenAI, RAG on Docling, MCP tool servers, in-browser Python. |
 
 ## Tech Stack
 
@@ -38,4 +38,4 @@ and I still write most of the code myself.
 
 ## Certifications
 
-AWS Solutions Architect · HashiCorp Terraform Associate · Confluent Certified Developer for Apache Kafka · AWS Generative AI Applications · Microsoft AI & ML Engineering
+AWS Solutions Architect · HashiCorp Terraform Associate · Confluent Certified Developer for Apache Kafka · AWS Generative AI Applications · Microsoft AI & ML Engineering · Machine Learning & Data Analysis (MIPT / Yandex)
