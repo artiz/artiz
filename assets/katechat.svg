@@ -16,6 +16,6 @@
       <circle cx="52" cy="12" r="11" fill="#000"/>
     </mask>
   </defs>
-  <path d="M12 14h36a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8H28l-11 9v-9h-5a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#2f7dff" mask="url(#bubble)"/>
+  <path d="M12 14h36a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8H28l-11 9v-9h-5a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#c00d55" mask="url(#bubble)"/>
   <path class="spark" d="M52 3l2.2 6.8L61 12l-6.8 2.2L52 21l-2.2-6.8L43 12l6.8-2.2z" fill="#ff8a1f"/>
 </svg>
