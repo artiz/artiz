@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/net.svg" width="100%" alt="Artem Kustikov · artiz — Principal Consultant · GenAI &amp; agentic systems, streaming, cloud-native architecture"/>
+  <img src="assets/agent.svg" width="100%" alt="Artem Kustikov — how my AI agents work: channels and a dispatcher feed an LLM agent loop (plan, act, observe) that uses MCP servers (Gmail, GitHub, Teams), A2A peer agents, RAG on docling.rs, function tools, memory, human-in-the-loop approval and Langfuse observability"/>
 </p>
 <p align="center">Vienna, Austria · <a href="https://artiz.github.io/">CV</a> · <a href="https://www.linkedin.com/in/artem-kustikov-2635917/">LinkedIn</a></p>
 
